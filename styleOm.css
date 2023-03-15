@@ -1,0 +1,107 @@
+
+/* Bakgrunn fargen og hvilke font brukes i all tekst (med mindre fonten er endret i koden)  */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+  }
+  
+  /* top teksten */
+  .Om {
+    text-decoration: underline 4px rgb(51, 51, 51); 
+    text-underline-offset: 35px; 
+    /* lager en understrek, offset endrer hvor langt under den streken er*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+
+    right: 865px;
+    top: 70px;
+    /* endrer hvor teksten ligger i forhold til nettsiden */
+    position: fixed;
+    /* bytter position til fixed sånt at teksten ikke beveger seg, det finnes sikkert andre løsninger
+    men jeg syns dette er det enkleste. */
+  }
+  
+  img {
+    margin: 0 auto;
+    /* Margin sentererer bildet mitt, ved hjelp av right og top også da. */
+    position: fixed;
+   max-width: 3000px;
+    height: 600px;
+    /* height og max width er for å lage bildet større eller mindre, position er satt til fixed sånt at bildet ikke beveger på seg når jeg redigerer feks tekst. */
+    top: 400px; 
+    right: 150px;
+/* right og top er for å plassere det hvor jeg vil. */
+  }
+  
+  .logo{
+    position: fixed;
+    right: 0px;
+    height: 180px; 
+    max-width: 1300px;
+    top: -30px;
+    /* position er fast, right er på 0 fordi jeg vil ga logoen i høyre hjørne, height og max width er satt til det for å få "logoen" riktig, top -30 fordi jeg vil ha logoen på toppen, men ikke helt oppe. */
+  } 
+  .logo:hover {
+    right:-3px;
+    height: 185px;
+    /* endrer størrelsen på logoen når musa er over den. flytta den -3px til høyre fordi logoen gikk til venstre med noen pixler når man hovera, som så rart ut. */
+  }
+  .teams-image {
+    max-width: 1000px;
+    height: 1000px;
+    top: 150px; 
+    left: 100px;
+    /* Left og top for å plassere bildet hvor jeg vil, max width og height for å endre størrelsen. */
+  }
+
+
+.Info{
+  font-size: 50px;
+  position: fixed;
+  /* fikser posisjonen og endrer størrelsen på teksten */
+  bottom: 200px;
+  right: 973px;
+  /* right og bottom for å plassere */
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* understrek og endret font på kontakt teksten */
+}
+
+.subInfo{
+  bottom: 130px;
+  right: 785px;
+  /* endrer hvor selve infoen skal ligge */
+  font-size: 25px;
+  position: fixed;
+  white-space: pre-line;
+  /* font size og positon endrer størrelsen og fikser teksten sånt at ingenting beveger den
+  white-space gjør sånt at jeg kan skrive teksten under hverandre istedenfor at teksten går i en rett linje */
+}
+
+.Kort{
+  font-size: 50px;
+  bottom: 450px;   
+  left: 120px;
+  position: fixed;
+  /* endrer hvor selve infoen skal ligge, får teksten til å stå fast også
+  endrer også størrelsen på skriften */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Teksten{
+position:fixed;
+bottom: 50px;
+left: 120px;
+/* bottom og left er for plassering, position er satt til fixed fordi da beveger ingenting teksten. */
+font-size: 25px;
+white-space: pre-line;
+/* font size endrer størrelsen til 25px, white space gjør sånt at teksten kan formateres under hverandre
+istendenfor å gå i en rett linje. */
+} 
+
+/* .hund {
+    left: -1840px;  
+    top: 950px; 
+    height: 130px;
+    max-width: 130px;
+  } ville ha med en bilde av hunden min siden jeg nevnte han i teksten, men det ødelegger for design delen så fjerna det.*/
+  

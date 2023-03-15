@@ -1,0 +1,107 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+  }/* Bakgrunn fargen og hvilke font brukes i all tekst (med mindre fonten er endret i koden)  */
+  
+  .logo{
+    position: fixed;
+    right: 0px;
+    height: 180px; 
+    max-width: 1300px;
+    top: -30px;
+    /* position er fast, right er på 0 fordi jeg vil ga logoen i høyre hjørne, height og max width er satt til det for å få "logoen" riktig, top -30 fordi jeg vil ha logoen på toppen, men ikke helt oppe. */
+  } 
+  
+  .logo:hover {
+    right:-3px;
+    height: 185px;
+    /* endrer størrelsen på logoen når musa er over den. flytta den -3px til høyre fordi logoen gikk til venstre med noen pixler når man hovera, som så rart ut. */
+  }
+
+  .navn {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 70px;/*font og størrelse på teksten*/
+    left: 130px;
+    position: fixed;
+    top: 10px;
+    text-decoration: underline 4px rgb(51, 51, 51);
+    text-underline-offset: 15px; 
+       /* lager en understrek, offset endrer hvor langt under den streken er*/
+  } 
+  
+  /* bilde og plassering/størrelse */
+  .Dominikumentar {
+    max-width: 400px;
+    height: 600px;
+    position: fixed;
+    right: 130px;
+    top: 260px;
+  } 
+
+   .domitekst {/* endrer hvor overskriften er og størrelsen */
+    font-size: 40px;
+    position: fixed;
+    left: 1600px;
+    top: 165px;
+  }
+
+  .Domifork{/* hvor teksten ligger, størrelsen på teksten, font weight er bold sånt at teksten ser bedre ut, white space gjør sånt at teksten går under hverandre istedenfor å gå i en rett linje */
+    position: fixed;
+    left: 1600px;
+    top: 850px;
+    white-space: pre-line;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .kodebil{ /* bilde og plassering/størrelse */
+    max-width: 600px;
+    height: 600px;
+    position: fixed;
+    left: 800px;
+    top: 260px;
+  }
+
+
+.Portefølje{/* endrer hvor overskriften er og størrelsen */
+  max-width: 600px;
+  height: 600px;
+  position: fixed;
+  left: 800px;
+  top: 165px;
+  font-size: 40px
+}
+
+.portetekst{/* hvor teksten ligger, størrelsen på teksten, font weight er bold sånt at teksten ser bedre ut, white space gjør sånt at teksten går under hverandre istedenfor å gå i en rett linje */
+  position: fixed;
+    left: 800px;
+    top: 850px;
+    white-space: pre-line;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pc{ /* bilde og plassering/størrelse */
+  height: 600px;
+  max-width: 400px;
+  position: fixed;
+  left: 130px;
+  top: 260px;
+}
+.pctittel{/* endrer hvor overskriften er og størrelsen */
+  position: fixed;
+  left: 130px;
+  top: 165px;
+  font-size: 40px
+}
+
+.pctekst{/* hvor teksten ligger, størrelsen på teksten, font weight er bold sånt at teksten ser bedre ut, white space gjør sånt at teksten går under hverandre istedenfor å gå i en rett linje */
+  position: fixed;
+  left: 130px;
+  top: 850px;
+  white-space: pre-line;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
